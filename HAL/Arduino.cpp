@@ -10,7 +10,6 @@ int main() {
     while(1) {
         loop();
     }
-
 }
 
 void sei() {
