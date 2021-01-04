@@ -44,8 +44,8 @@ void cExamples() {
     struct person fabian = {"fabian", "hirter", 1986, 180};
 
     // pointer
-    int value = 0;
-    int array[10];
+    int value = 50;
+    int array[3] = {5,3,4};
     int *pointer1;  // kann eine Adresse aufnehmen, die auf einen Wert vom Typ Integer zeigt
     int *pointer2;
     pointer1 = &value;     //  Adresse einer Variablen
