@@ -1,5 +1,5 @@
-#include "HAL/Arduino.h"
-#include "HAL/Print.h"
+#include "../HAL/Arduino.h"
+#include "../HAL/Print.h"
 
 volatile bool enable_blinking = true;
 volatile bool update_timer = true;

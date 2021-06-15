@@ -5,11 +5,11 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(
         ArduinoHAL
-        cExamples.cpp
-        cExamples.h
-        main.cpp
-        halUsage.h
-        halUsage.cpp
+        Examples/cExamples.cpp
+        Examples/cExamples.h
+        Examples/main.cpp
+        Examples/halUsage.h
+        Examples/halUsage.cpp
         HAL/Arduino.cpp
         HAL/Arduino.h
         HAL/binary.h
