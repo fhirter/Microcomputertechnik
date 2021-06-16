@@ -33,7 +33,6 @@ TaskHandle_t xReadInputsTaskHandle;
 
 // Queue Handlers
 QueueHandle_t xVoltageQueue;
-QueueHandle_t xButtonQueue;
 
 // the setup function runs once when you press reset or power the board
 void setup() {
@@ -54,7 +53,6 @@ void setup() {
 
     // Create queue for Voltage Value
     xVoltageQueue = xQueueCreate(1, sizeof(float));
-    xButtonQueue = xQueueCreate(10, sizeof(bool));
 
     // Set up two tasks to run independently.
     xTaskCreate(
