@@ -20,9 +20,9 @@ enum States {
 };
 
 // Tasks
-void TaskBlink(void *pvParameters);
+void TaskStateMachine(void *pvParameters);
 
-void TaskAnalogRead(void *pvParameters);
+void TaskReadInputs(void *pvParameters);
 
 // ISR
 void switch_isr(void);
