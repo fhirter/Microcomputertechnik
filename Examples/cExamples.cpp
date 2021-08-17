@@ -59,12 +59,12 @@ void cExamples() {
     int array[3] = {5,3,4};
     int *pointer1;  // kann eine Adresse aufnehmen, die auf einen Wert vom Typ Integer zeigt
     int *pointer2;
-    pointer1 = &value;     //  Adresse einer Variablen
-    pointer2 = array;          /* mit Feld */
+    pointer1 = &value;     // Adresse einer Variablen
+    pointer2 = array;      // array wird zum pointer auf das erste element
 
-    array[2];
-    int foo = (pointer2+2)
-
+    // pointer arithmetik und zugriff auf element mit [n] sind gleichwertig.
+    int fubar1 = array[2];
+    int fubar2 = *(pointer2+2);
 
     *pointer1 = 5; // wert an adresse schreiben
 }
