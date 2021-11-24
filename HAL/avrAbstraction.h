@@ -1,8 +1,0 @@
-//using namespace std;
-
-#ifndef ARDUINOHAL_AVRABSTRACTION_H
-#define ARDUINOHAL_AVRABSTRACTION_H
-
-void sei();
-
-#endif //ARDUINOHAL_AVRABSTRACTION_H
