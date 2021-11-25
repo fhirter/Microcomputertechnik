@@ -7,6 +7,8 @@ enum state_t {
     ST_CLOSED,
 };
 
+// commit test
+
 state_t getNextState(state_t state, uint8_t input);
 
 int main() {
