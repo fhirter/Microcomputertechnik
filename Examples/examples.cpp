@@ -7,19 +7,11 @@ enum state_t {
     ST_CLOSED,
 };
 
-// commit test
-
-state_t getNextState(state_t state, uint8_t input);
-
 int main() {
     cExamples();
-
-    enum state_t state = ST_CLOSED;
-
-    for(uint8_t input = 0; input < 10; input++) {
-        state = getNextState(state, input);
-    }
 }
+
+// todo: add struct to function example
 
 void cExamples() {
     // arrays
@@ -53,30 +45,3 @@ void cExamples() {
     *pointer1 = 5; // wert an adresse schreiben
 }
 
-enum state_t getNextState(state_t currentState, uint8_t input) {
-    enum state_t nextState;
-
-    switch (currentState) {
-        case ST_OPEN:
-            // do something
-            printf("%d", ST_OPEN);
-
-
-            if(input % 2) {
-                nextState = ST_CLOSED;
-            }
-
-            break;
-        case ST_CLOSED:
-            printf("%d", ST_CLOSED);
-            // do something else
-
-            if(!(input%2)) {
-                nextState = ST_OPEN;
-            }
-            break;
-        default:
-            break;
-    }
-    return nextState;
-}
