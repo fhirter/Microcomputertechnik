@@ -1,8 +1,3 @@
-/**
- * Copy Paste into Arduino IDE to run this file.
- */
-
-
 #include <Arduino_FreeRTOS.h>
 #include <queue.h>
 #include <task.h>
