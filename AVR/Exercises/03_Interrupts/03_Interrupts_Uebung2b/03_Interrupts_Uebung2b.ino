@@ -1,3 +1,8 @@
+#include "timer-api.h"
+
+// Untested!
+
+
 const byte interruptPin = 2;
 volatile bool enableBlinking = 1;
 volatile bool state = 1;
@@ -15,28 +20,31 @@ void setup() {
     Serial.begin(9600);
 
     referenceTime = micros();
+
+    timer_init_ISR_1Hz(TIMER_DEFAULT);
 }
 
 void loop() {
     float d = 1000000;
 
-    unsigned long currentTime = micros();
-    unsigned long deltaTime = currentTime - referenceTime;
-
-    delay(100);     // deltaTime depends on this delay
-
-    if(deltaTime > d) {
-        if (enableBlinking == 1) {
-            digitalWrite(LED_BUILTIN, state);
-            Serial.println(deltaTime, DEC);
-            state = !state;
-            referenceTime = currentTime;        // reset time
-        } else {
-            digitalWrite(LED_BUILTIN, LOW);
-        }
-    }
+    delay(100);     // deltaTime does not depend on this delay
 }
 
 void blink() {
     enableBlinking = !enableBlinking;
+}
+
+void timer_handle_interrupts(int timer) {
+    unsigned long currentTime = micros();
+    unsigned long deltaTime = currentTime - referenceTime;
+
+    Serial.println(deltaTime, DEC);
+
+    if (enableBlinking == 1) {
+        digitalWrite(LED_BUILTIN, state);
+        state = !state;
+        referenceTime = currentTime;        // reset time
+    } else {
+        digitalWrite(LED_BUILTIN, LOW);
+    }
 }
