@@ -22,7 +22,7 @@ void loop() {
     if(blinkFlag == 1) {
         if (enableBlinking == 1) {
             digitalWrite(LED_BUILTIN, state);
-            state != state;
+            state = !state;
             blinkFlag = 0;
         } else {
             digitalWrite(LED_BUILTIN, LOW);
