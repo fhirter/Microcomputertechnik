@@ -9,11 +9,7 @@ volatile bool state = 1;
 
 unsigned long referenceTime = 0;
 
-unsigned long prevTime = 0;
-
-// the setup function runs once when you press reset or power the board
 void setup() {
-// initialize digital pin LED_BUILTIN as an output.
     pinMode(LED_BUILTIN, OUTPUT);
     pinMode(interruptPin, INPUT_PULLUP);
     attachInterrupt(digitalPinToInterrupt(interruptPin), blink, FALLING);
@@ -25,15 +21,15 @@ void setup() {
 }
 
 void loop() {
-    float d = 1000000;
-
-    delay(100);     // deltaTime does not depend on this delay
+    delay(10000);     // deltaTime does not depend on this delay
 }
 
+// button ISR
 void blink() {
     enableBlinking = !enableBlinking;
 }
 
+// timer ISR
 void timer_handle_interrupts(int timer) {
     unsigned long currentTime = micros();
     unsigned long deltaTime = currentTime - referenceTime;
