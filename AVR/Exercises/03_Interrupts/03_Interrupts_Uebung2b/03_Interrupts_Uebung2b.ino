@@ -1,8 +1,5 @@
 #include "timer-api.h"
 
-// Untested!
-
-
 const byte interruptPin = 2;
 volatile bool enableBlinking = 1;
 volatile bool state = 1;
