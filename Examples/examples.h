@@ -5,6 +5,6 @@
 #ifndef ARDUINOHAL_MAIN_H
 #define ARDUINOHAL_MAIN_H
 
-void cExamples();
+
 
 #endif //ARDUINOHAL_MAIN_H
