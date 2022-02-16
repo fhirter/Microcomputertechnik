@@ -30,7 +30,7 @@ void blink() {
 // timer ISR
 void timer_handle_interrupts(int timer) {
     static uint8_t buttonCounter = 0;
-    if(digitalRead(interruptPin)) {
+    if(digitalRead(interruptPin) == 0) {
         buttonCounter++;
         Serial.print(buttonCounter);
     }
