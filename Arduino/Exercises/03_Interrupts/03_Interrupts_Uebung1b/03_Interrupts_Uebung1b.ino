@@ -1,5 +1,5 @@
 const byte interruptPin = 2;
-volatile byte state = 0;
+volatile byte state = 1;
 
 // the setup function runs once when you press reset or power the board
 void setup() {
