@@ -13,7 +13,7 @@ enum alarmState {
     ST_ALARM_LEVEL_1,
     ST_ALARM_LEVEL_2,
     ST_ALARM_LEVEL_3
-}
+};
 
 enum alarmState getNextState(alarmState currentState, int ppmValue) {
     enum alarmState nextState = ST_NO_ALARM;
@@ -29,12 +29,12 @@ enum alarmState getNextState(alarmState currentState, int ppmValue) {
     return nextState;
 }
 
-void setOutput(enum currentState) {
-    switch currentState{
+void setOutput(enum alarmState currentState) {
+    switch(currentState) {
         case ST_ALARM_LEVEL_1:
             buzzerOn(1);
             break;
-        case ST_ALARM_LEVEL_2;
+        case ST_ALARM_LEVEL_2:
             buzzerOn(0.5);
             break;
         default:
