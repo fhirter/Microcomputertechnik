@@ -40,7 +40,6 @@ void timer_handle_interrupts() {
     static uint8_t buttonCounter = 0;
     if(digitalRead(interruptPin)) {
         buttonCounter++;
-        Serial.print(buttonCounter);
     }
 
     if(buttonCounter >= 5) {
