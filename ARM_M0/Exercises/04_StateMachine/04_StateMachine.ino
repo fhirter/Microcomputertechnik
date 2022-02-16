@@ -1,8 +1,6 @@
 #include <NRF52_MBED_TimerInterrupt.h>
 #include <NRF52_MBED_ISR_Timer.h>
 
-#include "04_StateMachine.h"
-
 enum State {
     ST_OPEN,
     ST_CLOSING,
