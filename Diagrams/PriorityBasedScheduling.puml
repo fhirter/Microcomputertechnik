@@ -1,0 +1,12 @@
+@startuml
+
+title Preemptive Priority Based Scheduling
+note across: higher priority -->
+
+activate "Task 1"
+"Task 1" --> "Task 2" --++: Preemption
+"Task 2" --> "Task 3" --++: Preemption
+"Task 3" --> "Task 2" --++:
+"Task 2" --> "Task 1" --++:
+
+@enduml
