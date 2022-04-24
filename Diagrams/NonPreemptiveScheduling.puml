@@ -15,7 +15,7 @@ activate "Low Prio Task"
 "Low Prio Task" -> "High Prio Task": Scheduler
 deactivate "Low Prio Task"
 activate "High Prio Task"
-note right: Hig Prio Task can only run after Low Prio Task yiels CPU
+note right: High Prio Task can only run after Low Prio Task yiels CPU
 ...
 
 @enduml
