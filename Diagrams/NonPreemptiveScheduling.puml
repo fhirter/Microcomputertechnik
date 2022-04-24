@@ -1,0 +1,21 @@
+@startuml
+
+title Non-Preemptive Scheduling
+
+activate "Low Prio Task"
+"Low Prio Task" -> "ISR": interrupt
+deactivate "Low Prio Task"
+
+activate ISR
+ISR -> "Low Prio Task"
+note right: High Prio Task becomes ready
+
+deactivate ISR
+activate "Low Prio Task"
+"Low Prio Task" -> "High Prio Task": Scheduler
+deactivate "Low Prio Task"
+activate "High Prio Task"
+note right: Hig Prio Task can only run after Low Prio Task yiels CPU
+...
+
+@enduml
