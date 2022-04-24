@@ -1,0 +1,23 @@
+@startuml
+A ->> B: Asynchroner Operationsaufruf
+note left
+Asynchron bedeutet,
+dass der aufrufende Prozess nicht 
+auf eine Antwort des anderen Prozesses wartet
+end note
+A -> B: Synchroner Operationsaufruf
+activate B
+
+note right
+Mit Lebenslinien wird die Laufzeit
+des Prozesses angezeigt
+end note
+
+note left
+Synchron hingegen bedeuet, 
+dass der Aufrufende Prozess auf die Antwort wartet
+end note
+B -> A: Synchroner Operationsaufruf
+
+deactivate B
+@enduml
