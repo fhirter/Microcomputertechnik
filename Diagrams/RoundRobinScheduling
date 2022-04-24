@@ -1,0 +1,37 @@
+@startuml
+
+title Round Robin Scheduling
+
+activate Scheduler
+Scheduler -> A: start
+note left
+Der Scheduler startet einen Prozess 
+und lässt ihn für eine definierte Zeit laufen.
+end note
+deactivate Scheduler
+activate A
+...
+Scheduler -> A: stop
+note left: Wenn die Zeit abgelaufen ist, wird der Prozess gestoppt.. 
+deactivate A
+
+activate Scheduler
+Scheduler -> B: start
+note left: ... der nächste gestartet.
+deactivate Scheduler
+activate B
+...
+Scheduler -> B: stop
+deactivate B
+
+activate Scheduler
+Scheduler -> C: start
+deactivate Scheduler
+activate C
+...
+Scheduler -> C: stop
+deactivate C
+
+
+
+@enduml
