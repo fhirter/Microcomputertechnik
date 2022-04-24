@@ -11,12 +11,12 @@ deactivate Scheduler
 activate "Task A"
 ...
 Scheduler -> "Task A": stop
-note left: Wenn die Zeit abgelaufen ist, wird der Prozess gestoppt.. 
+note left: Wenn die Zeit abgelaufen ist, wird der Prozess gestoppt...
 deactivate "Task A"
 
 activate Scheduler
 Scheduler -> "Task B": start
-note left: ... der nächste gestartet.
+note left: ... und der nächste gestartet.
 deactivate Scheduler
 activate "Task B"
 ...
