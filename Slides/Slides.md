@@ -152,6 +152,17 @@ jmp loop     ;unbedingter Sprung zur Marke :loop (Endlosschleife)
 
 https://de.wikipedia.org/wiki/Echtzeitsystem
 
+### Reduced Instruction Set Computer (RISC)
+
+- Opcode hat eine feste Länge
+- Meistens 1 Takt pro Operation
+- Load/Store Architektur: Separate Lade und Speicher-Befehle
+- Hohe Anzahl an Registern für Zwischenresultate
+- Oft Harvard-Architektur
+- Grundsätzlich: Einfachere Architektur, einfacher für Compiler
+- Alles andere: **CISC**
+
+
 ## SoC vs Microprocessor vs Microcontroller
 
 ### Microcontroller: ATmega328P
@@ -191,18 +202,6 @@ Apple M1
 ---
 
 ![img_1.png](arm_company_highlights.png)
-
-## RISC vs CISC
-
-### Reduced Instruction Set Computer (RISC)
-
-- Opcode hat eine feste Länge
-- Meistens 1 Takt pro Operation
-- Load/Store Architektur: Separate Lade und Speicher-Befehle
-- Hohe Anzahl an Registern für Zwischenresultate
-- Oft Harvard-Architektur
-- Grundsätzlich: Einfachere Architektur, einfacher für Compiler
-- Alles andere: CISC
 
 ### Pipelining
 
