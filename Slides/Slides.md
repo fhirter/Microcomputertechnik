@@ -56,7 +56,7 @@ https://go.dev/ref/spec#Keywords
 
 ## Aufbau und Funktion eines Microprozessors
 
-![w:800px](Microprocessor.png)
+![w:500px](Microprocessor.png)
 
 https://erik-engheim.medium.com/how-does-a-microprocessor-run-a-program-11744ab47d04
 
@@ -66,19 +66,29 @@ https://erik-engheim.medium.com/how-does-a-microprocessor-run-a-program-11744ab4
 
 ### 1971: Intel 4004
 
-![img.png](Intel4004.png)
+![w:600px](Intel4004.png)
 
 ### AMD Threadripper
 
-![img_1.png](Ryzen_Threadripper_III.png)
+![w:600px](Ryzen_Threadripper_III.png)
+
+### von Neumann Architektur
+
+![img.png](vonNeumannArchitecture.png)
+
+### Harvard Architektur
+
+![w:600px](HarvardArchitecture.png)
 
 ### Fetch - Decode - Execute
 
-![img_1.png](Cortex_M4_Pipeline.png)
+![w:800px](Cortex_M4_Pipeline.png)
 
 ### Arithmetic Logic Unit (ALU)
 
 ![w:800px](ALU.png)
+
+---
 
 Mindestens:
 
@@ -96,8 +106,6 @@ Zusätzlich (Auswahl):
 
 ## Instruction Set
 
-### OP-Code
-
 ![img.png](MIPS21_OPCode.png)
 
 http://lyons42.com/AVR/Opcodes/AVRAllOpcodes.html
@@ -105,11 +113,17 @@ http://lyons42.com/AVR/Opcodes/AVRAllOpcodes.html
 ### A64 Instruction Set
 
 ![img.png](A64_instruction_set_I.png)
+
 --- 
+
 ![img.png](A64_instruction_set_II.png)
+
 ---
+
 ![img_2.png](A64_instruction_set_III.png)
+
 ---
+
 ![img.png](A64_instruction_set_IV.png)
 
 ### Assembler
@@ -138,10 +152,6 @@ jmp loop     ;unbedingter Sprung zur Marke :loop (Endlosschleife)
 
 https://de.wikipedia.org/wiki/Echtzeitsystem
 
-### Harvard vs von Neumann
-
-![img.png](HarvardArchitecture.png) ![img.png](vonNeumannArchitecture.png)
-
 ## SoC vs Microprocessor vs Microcontroller
 
 ### Microcontroller: ATmega328P
@@ -152,25 +162,33 @@ https://de.wikipedia.org/wiki/Echtzeitsystem
 
 ![img.png](System_on_chip.png)
 
+--- 
+
 ![img.png](Samsung_Galaxy_S3.png)
+Samsung Galaxy S3
 
-![img_1.png](Apple_M1.png)
+---
 
+![w:600px](Apple_M1.png)
+Apple M1
 
 ### Microprocessor: AMD Ryzen Threadripper
 
 ![img_1.png](Ryzen_Threadripper_I.png)
+
 ---
+
 ![img_1.png](Ryzen_Threadripper_II.png)
 
 ### Advanced RISC Machine (ARM)
 
-> „ARM has an innovative business model.
-> We license our technology to a network of Partners, mainly leading semiconductor companies.
-> Every licensee pays an upfront fee to gain access to our technology designs.
-> They then incorporate our designs alongside their own technology to create smart, energy-efficient chips.
-> ARM receives a royalty on every chip sold that uses one of our technology designs.
-> Typically our royalty is based on the price of the chip.“
+> "Arm licenses processor designs to semiconductor companies that incorporate the technology into their computer chips.
+> Licensees pay an up-front fee to gain access to our technology, and a royalty on every chip that uses one of our technology designs.
+> Typically, the royalty is based on the selling price of the chip." 
+
+(https://group.softbank/en/ir/financials/annual_reports/2021/message/segars, 08.01.2024)
+
+---
 
 ![img_1.png](arm_company_highlights.png)
 
@@ -189,5 +207,7 @@ https://de.wikipedia.org/wiki/Echtzeitsystem
 ### Pipelining
 
 ![img_1.png](Pipelining.png)
+
 ---
+
 ![img_1.png](Apple_M1_stages.png)
