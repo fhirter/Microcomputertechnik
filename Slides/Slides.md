@@ -10,11 +10,11 @@ img {
 
 ## Software
 
-![img.png](Tiobe0124.png)
+![img.png](images/Tiobe0124.png)
 
 ---
 
-![img.png](Thompson_Ritchie.png)
+![img.png](images/Thompson_Ritchie.png)
 
 Ken Thompson, Dennis Ritchie
 
@@ -56,37 +56,37 @@ https://go.dev/ref/spec#Keywords
 
 ## Aufbau und Funktion eines Microprozessors
 
-![w:500px](Microprocessor.png)
+![w:500px](images/Microprocessor.png)
 
 https://erik-engheim.medium.com/how-does-a-microprocessor-run-a-program-11744ab47d04
 
 ### AVR Architektur Blockschaltbild
 
-![img.png](AVR_Architecture.png)
+![img.png](images/AVR_Architecture.png)
 
 ### 1971: Intel 4004
 
-![w:600px](Intel4004.png)
+![w:600px](images/Intel4004.png)
 
 ### AMD Threadripper
 
-![w:600px](Ryzen_Threadripper_III.png)
+![w:600px](images/Ryzen_Threadripper_III.png)
 
 ### von Neumann Architektur
 
-![img.png](vonNeumannArchitecture.png)
+![img.png](images/vonNeumannArchitecture.png)
 
 ### Harvard Architektur
 
-![w:600px](HarvardArchitecture.png)
+![w:600px](images/HarvardArchitecture.png)
 
 ### Fetch - Decode - Execute
 
-![w:800px](Cortex_M4_Pipeline.png)
+![w:800px](images/Cortex_M4_Pipeline.png)
 
 ### Arithmetic Logic Unit (ALU)
 
-![w:800px](ALU.png)
+![w:800px](images/ALU.png)
 
 ---
 
@@ -106,25 +106,25 @@ Zusätzlich (Auswahl):
 
 ## Instruction Set
 
-![img.png](MIPS21_OPCode.png)
+![img.png](images/MIPS21_OPCode.png)
 
 http://lyons42.com/AVR/Opcodes/AVRAllOpcodes.html
 
 ### A64 Instruction Set
 
-![img.png](A64_instruction_set_I.png)
+![img.png](images/A64_instruction_set_I.png)
 
 --- 
 
-![img.png](A64_instruction_set_II.png)
+![img.png](images/A64_instruction_set_II.png)
 
 ---
 
-![img_2.png](A64_instruction_set_III.png)
+![img_2.png](images/A64_instruction_set_III.png)
 
 ---
 
-![img.png](A64_instruction_set_IV.png)
+![img.png](images/A64_instruction_set_IV.png)
 
 ### Assembler
 
@@ -167,29 +167,29 @@ https://de.wikipedia.org/wiki/Echtzeitsystem
 
 ### Microcontroller: ATmega328P
 
-![img.png](img.png)
+![img.png](images/img.png)
 
 ### System on Chip (SoC)
 
-![img.png](System_on_chip.png)
+![img.png](images/System_on_chip.png)
 
 --- 
 
-![img.png](Samsung_Galaxy_S3.png)
+![img.png](images/Samsung_Galaxy_S3.png)
 Samsung Galaxy S3
 
 ---
 
-![w:600px](Apple_M1.png)
+![w:600px](images/Apple_M1.png)
 Apple M1
 
 ### Microprocessor: AMD Ryzen Threadripper
 
-![img_1.png](Ryzen_Threadripper_I.png)
+![img_1.png](images/Ryzen_Threadripper_I.png)
 
 ---
 
-![img_1.png](Ryzen_Threadripper_II.png)
+![img_1.png](images/Ryzen_Threadripper_II.png)
 
 ### Advanced RISC Machine (ARM)
 
@@ -201,12 +201,12 @@ Apple M1
 
 ---
 
-![img_1.png](arm_company_highlights.png)
+![img_1.png](images/arm_company_highlights.png)
 
 ### Pipelining
 
-![img_1.png](Pipelining.png)
+![img_1.png](images/Pipelining.png)
 
 ---
 
-![img_1.png](Apple_M1_stages.png)
+![img_1.png](images/Apple_M1_stages.png)
