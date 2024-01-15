@@ -8,6 +8,10 @@ img {
 
 # Microcomputertechnik
 
+## Überblick
+
+![img.png](images/ueberblick.png)
+
 ## Software
 
 ![img.png](images/Tiobe0124.png)
@@ -71,6 +75,14 @@ https://erik-engheim.medium.com/how-does-a-microprocessor-run-a-program-11744ab4
 ### AMD Threadripper
 
 ![w:600px](images/Ryzen_Threadripper_III.png)
+
+### Apple M1
+
+![img_1.png](images/Apple_M1_stages.png)
+
+### ARM Cortex A67
+
+![img.png](images/cortex_a76.png)
 
 ### von Neumann Architektur
 
@@ -203,10 +215,12 @@ Apple M1
 
 ![img_1.png](images/arm_company_highlights.png)
 
+### Strukturgrösse
+
+![img.png](images/struckturgroesse.png)
+
 ### Pipelining
 
 ![img_1.png](images/Pipelining.png)
 
----
 
-![img_1.png](images/Apple_M1_stages.png)
