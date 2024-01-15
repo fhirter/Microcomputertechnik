@@ -82,7 +82,7 @@ https://erik-engheim.medium.com/how-does-a-microprocessor-run-a-program-11744ab4
 
 ### ARM Cortex A67
 
-![img.png](images/cortex_a76.png)
+![w:600px](images/cortex_a76.png)
 
 ### von Neumann Architektur
 
