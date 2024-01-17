@@ -223,4 +223,21 @@ Apple M1
 
 ![img_1.png](images/Pipelining.png)
 
+### Cache
 
+![img.png](images/cache.png)
+(Silberschatz, 2019)
+
+## Speicher
+![img.png](images/storage_hierarchy.png)
+(Silberschatz, 2019)
+
+--- 
+
+![img.png](images/storage_characteristics.png)
+(Silberschatz, 2019)
+
+## Quellen
+
+Silberschatz, 2019
+: A.Silberschatz, P.B.Galvin, G. Gagne (2019): Operating System Concepts, Global Edition, Wiley
