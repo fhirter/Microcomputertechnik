@@ -6,7 +6,8 @@
     - ALU
     - L1 Instruction Cache
       ![cortex_a76.png](cortex_a76.png)
+2. Erkläre anhand obigem Blockschaltbild, wie eine CPU eine Addition von zwei Ganzzahlen ausführt.
 
-2. Die folgende Abbildung zeigt den ganzen Befehlssatz eines PIC10 Microcontrollers.
+3. Die folgende Abbildung zeigt den ganzen Befehlssatz eines PIC10 Microcontrollers.
    Handelt es sich dabei um einen RISC oder CISC-Prozessor? Begründe!
    ![PIC10InstructionSet.png](PIC10InstructionSet.png)
