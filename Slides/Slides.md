@@ -58,6 +58,59 @@ continue     for          import       return       var
 
 https://go.dev/ref/spec#Keywords
 
+## Hochsprache zu Maschinencode
+
+### Rust
+
+```rust
+pub fn square(num: i32) -> i32 {
+    num * num
+}
+```
+
+### Assembler
+
+```asm
+square:
+        push    {r7, lr}
+        sub     sp, #8
+        smull   r1, r0, r0, r0
+        mov     r2, r1
+        str     r2, [sp, #4]
+        cmp.w   r0, r1, asr #31
+        bne     .LBB0_2
+        b       .LBB0_1
+.LBB0_1:
+        ldr     r0, [sp, #4]
+        add     sp, #8
+        pop     {r7, pc}
+.LBB0_2:
+        ldr     r0, .LCPI0_0
+.LPC0_0:
+        add     r0, pc
+        ldr     r2, .LCPI0_1
+.LPC0_1:
+        add     r2, pc
+        movs    r1, #33
+        bl      core::panicking::panic
+        .inst.n 0xdefe
+.LCPI0_0:
+        .long   str.0-(.LPC0_0+4)
+.LCPI0_1:
+        .long   .L__unnamed_1-(.LPC0_1+4)
+.L__unnamed_2:
+        .ascii  "/app/example.rs"
+.L__unnamed_1:
+        .long   .L__unnamed_2
+        .asciz  "\017\000\000\000\013\000\000\000\005\000\000"
+
+str.0:
+        .ascii  "attempt to multiply with overflow"
+```
+[godbolt.org](https://godbolt.org/e)
+
+
+
 ## Aufbau und Funktion eines Microprozessors
 
 ![w:500px](images/Microprocessor.png)
@@ -137,32 +190,6 @@ http://lyons42.com/AVR/Opcodes/AVRAllOpcodes.html
 ---
 
 ![img.png](images/A64_instruction_set_IV.png)
-
-### Assembler
-
-```asm
-mov a, 10000 ; Grenzwert der Drehzahl
-mov b, 30    ; Grenzwert der Temperatur
-mov O,1      ; Abschaltsignal
-
-:loop          ; Markierung im Programmfluss (keine Instruktion, wird vom Assembler für Sprungadressen verwendet)
-in d,PORT1   ; einlesen der aktuellen drehzahl-Werte
-in t,PORT2   ; einlesen der aktuellen temp-Werte
-
-:drehcheck
-cmp d,a      ; prüfe die Drehzahl
-jg  tempcheck; wenn Grenzwert nicht erreicht, springe zu :tempcheck
-out PORT3,O  ; Grenzwert erreicht! setze Abschaltsignal
-
-:tempcheck
-cmp t,b      ; prüfe die Temperatur
-jg  loop     ; wenn Grenzwert nicht erreicht, springe zu :loop
-out PORT3,O  ; Grenzwert erreicht! setze Abschaltsignal
-
-jmp loop     ;unbedingter Sprung zur Marke :loop (Endlosschleife)
-```
-
-https://de.wikipedia.org/wiki/Echtzeitsystem
 
 ### Reduced Instruction Set Computer (RISC)
 
