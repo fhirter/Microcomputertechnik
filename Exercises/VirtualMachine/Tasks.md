@@ -11,7 +11,7 @@ Die Studierenden
 ## Aufgabenstellung
 
 Entwickle eine virtuelle Maschine für das "[Little Computer 3b](https://en.wikipedia.org/wiki/Little_Computer_3)"
-[Instruction Set](http://users.ece.utexas.edu/~patt/07s.360N/handouts/360n.appC.pdf).
+[Instruction Set](https://users.ece.utexas.edu/~patt/21s.460n/handouts/appA.pdf).
 
 Um ein korrektes Funktionieren sicherzustellen, sollen Unit-Tests geschrieben werden.
 Ein Vorgehen nach [TDD](https://de.wikipedia.org/wiki/Testgetriebene_Entwicklung) wird empfohlen.
