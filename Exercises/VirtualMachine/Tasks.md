@@ -16,9 +16,24 @@ Entwickle eine virtuelle Maschine für das "[Little Computer 3b](https://en.wiki
 Um ein korrektes Funktionieren sicherzustellen, sollen Unit-Tests geschrieben werden.
 Ein Vorgehen nach [TDD](https://de.wikipedia.org/wiki/Testgetriebene_Entwicklung) wird empfohlen.
 
+Wichtig ist eine detaillierte inhaltliche Auseinandersetzung mit der Thematik.
+
+Die im Unterricht behandelten theoretische Grundlagen sollen gründlich vertieft und gefestigt werden.
+
+Die vollständige Implementierung der virtuellen Maschine ist zweitrangig.
+
+### Programmiersprache
+
+Die Wahl der Programmiersprache ist den Studierenden überlassen.
+Andere virtuelle Maschinen oder Interpreter wie
+etwa [JVM](https://de.wikipedia.org/wiki/Java_Virtual_Machine), [CPython](https://en.wikipedia.org/wiki/CPython)
+oder [Deno](https://en.wikipedia.org/wiki/Deno_(software)) sind aus Performancegründen meist in C, C++ oder Rust
+geschrieben, weshalb die Wahl einer dieser Sprachen nahe liegt.
+Mögliche Alternativen sind andere kompilierte Sprachen wie Go, C#, Java.
+
 ## Bericht
 
-Im Bericht sollten folgende Teile vorkommen:
+Der Bericht sollten folgende Teile enthalten:
 
 - Einführung
     - Ausgangslage und Problemstellung
@@ -30,12 +45,6 @@ Im Bericht sollten folgende Teile vorkommen:
 
 Die Erläuterungen der Kapitel befinden sich im
 Dokument "[Anleitung technischer Bericht](AnleitungTechnischerBericht.pdf)".
-
-Wichtig ist eine detaillierte inhaltliche Auseinandersetzung mit der Thematik.
-
-Die im Unterricht behandelten theoretische Grundlagen sollen gründlich vertieft und gefestigt werden.
-
-Das vollständige Lösen der Aufgabenstellung ist zweitrangig.
 
 Umfang: ca 2500 Wörter.
 
