@@ -242,20 +242,32 @@ Apple M1
 
 ![img_1.png](images/arm_company_highlights.png)
 
+## Moore's Law
+
+![w:600px](images/MooresLaw.png)
+
 ### Strukturgrösse
 
 ![img.png](images/struckturgroesse.png)
 
-### Pipelining
+### TSMC
+
+![img.png](images/TSMC_process.png)
+
+## Pipelining
 
 ![img_1.png](images/Pipelining.png)
+
+
+## Speicher
 
 ### Cache
 
 ![img.png](images/cache.png)
 (Silberschatz, 2019)
 
-## Speicher
+---
+
 ![img.png](images/storage_hierarchy.png)
 (Silberschatz, 2019)
 
