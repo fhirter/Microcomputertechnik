@@ -12,6 +12,14 @@ func fNOT(srcValue WordSize) WordSize {
 	return ^srcValue
 }
 
+func fADD(srcValue1 WordSize, srcValue2 WordSize) WordSize {
+	return srcValue1 + srcValue2
+}
+
+func fAND(srcValue1 WordSize, srcValue2 WordSize) WordSize {
+	return srcValue1 & srcValue2
+}
+
 //func execute(operation)
 
 var instruction_register WordSize
