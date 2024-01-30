@@ -6,14 +6,16 @@ func main() {
 	// execute
 }
 
-func fNOT(srcValue uint16) uint16 {
+type WordSize uint16
+
+func fNOT(srcValue WordSize) WordSize {
 	return ^srcValue
 }
 
 //func execute(operation)
 
-var instruction_register uint16
-var program_counter uint16
+var instruction_register WordSize
+var program_counter WordSize
 
 type Condition_Codes struct {
 	zero     bool
@@ -23,7 +25,7 @@ type Condition_Codes struct {
 
 var condition_codes Condition_Codes
 
-var registers = [8]uint16{}
+var registers = [8]WordSize{}
 
 // memory
 

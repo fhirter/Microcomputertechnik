@@ -3,8 +3,8 @@ package main
 import "testing"
 
 func TestFNOT(t *testing.T) {
-	var srcValue uint16 = 0b0101010101010101
-	var expectedValue uint16 = 0b1010101010101010
+	var srcValue WordSize = 0b0101010101010101
+	var expectedValue WordSize = 0b1010101010101010
 
 	dstValue := fNOT(srcValue)
 
