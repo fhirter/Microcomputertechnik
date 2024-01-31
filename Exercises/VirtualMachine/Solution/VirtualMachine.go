@@ -40,7 +40,7 @@ var registers = [8]WordSize{}
 // instructions
 // operate
 const (
-	ADD = 0b000
+	ADD = 0b0000
 	AND = 0b0101
 	NOT = 0b1001
 	// data movement
@@ -52,9 +52,9 @@ const (
 	STR = 0b0111
 	STI = 0b1011
 	// control
-	BR = 0000
+	BR = 0b0000
 	//JSR = /JSRR
-	JMP = 1100
+	JMP = 0b1100
 	//RTI
 	TRAP = 0b1111
 )
