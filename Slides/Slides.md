@@ -246,6 +246,12 @@ Apple M1
 
 ![w:600px](images/MooresLaw.png)
 
+---
+
+![w:600px](images/ComputerPerformance.png)
+https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
+
+
 ### Strukturgrösse
 
 ![img.png](images/struckturgroesse.png)
