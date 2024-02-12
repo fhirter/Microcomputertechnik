@@ -250,7 +250,7 @@ Apple M1
 
 ![w:600px](images/ComputerPerformance.png)
 https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
-
+(Patterson, Hennessy, 2014, S.44)
 
 ### Strukturgrösse
 
@@ -286,3 +286,6 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
 
 Silberschatz, 2019
 : A.Silberschatz, P.B.Galvin, G. Gagne (2019): Operating System Concepts, Global Edition, Wiley
+
+Patterson, Hennessy, 2014
+: D.A.Patterson, J.L.Hennesy (2014): Computer Organization and Design - The Hardware / Software Interface, Fifth Edition, Morgan Kaufmann
