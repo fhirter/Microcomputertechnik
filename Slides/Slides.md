@@ -88,6 +88,28 @@ https://go.dev/ref/spec#Keywords
 
 ## Hochsprache zu Maschinencode
 
+### 4. Generation
+- SQL
+- Unix Shell
+- LabVIEW
+- Stata
+- R
+- MATLAB
+- MaxMSP
+
+### Programmiersprachen der 3. Generation
+- ALGOL
+- Cobol
+- Fortran
+- C, C++
+- C#
+- Java
+- Python
+- Go
+- Rust
+- JavaScript
+- etc.
+
 ### Rust
 
 ```rust
@@ -95,6 +117,9 @@ pub fn square(num: i32) -> i32 {
     num * num
 }
 ```
+
+
+## Assembler (2. Generation)
 
 ### Assembler
 
@@ -137,6 +162,7 @@ str.0:
 ```
 [godbolt.org](https://godbolt.org/e)
 
+## Maschinensprache (1. Generation)
 
 
 ## Aufbau und Funktion eines Microprozessors
@@ -243,31 +269,6 @@ http://lyons42.com/AVR/Opcodes/AVRAllOpcodes.html
 - Seit 2020 gibt es auch im Desktop wieder RISC Systeme (Apple M1) mit grossen Vorteilen in der Effizienz
 - Verschiedene Hersteller bieten auch für RISC Server-CPUs an die v.a. bei Cloud Anbietern (AWS, Google, etc) Verbreitung finden
 
-## Maschinensprache (1. Generation)
-
-## Assembler (2. Generation)
-![img_4.png](images/Assembler.png)
-
-## Programmiersprachen der 3. Generation
-- ALGOL
-- Cobol
-- Fortran
-- C, C++
-- C#
-- Java
-- Python
-- etc.
-
-## 4. Generation
-- SQL
-- Unix Shell
-- LabVIEW
-- Stata
-- R
-- MATLAB
-- MaxMSP
-
-
 ## SoC vs Microprocessor vs Microcontroller
 
 ### Microcontroller: ATmega328P
@@ -350,14 +351,14 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
 
 
 
-# Zahlendarstellung
+## Zahlendarstellung und Datentypen
 - Binäre Zahlen: Für Maschinen einfach darstellbar (2 mögliche Zustände, idR. Spannungen)
 
-## Integer
+### Integer
 - Ganze Zahlen
 - Natürliche Zahlen (Negativ): Das MSB (most significant bit) wird für das Vorzeichen verwendet
 
-## Fliesskommazahlen
+### Fliesskommazahlen
 - Normiert in IEEE 754
 - `x = s • m • b^e`
     - Vorzeichen s
@@ -367,10 +368,10 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
 
 ![img.png](images/FloatingPoint.png)
 
-## Floating Point: Präzision
+### Floating Point: Präzision
 ![img.png](images/FloatingPointPrecision.png)
 
-# Strings
+### Strings
 - Array von Buchstaben (Char)
   ![w:600px img.png](images/ASCIITable.png)
 
@@ -383,7 +384,7 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
 `float32` 32-bit IEEE 754 floating-point number (1.2E−38 bis 3.4E38)
 `string` "Sequence of Unicode code points"
 
-## Statische Typisierung
+### Statische Typisierung
 
 - Zur Laufzeit hat jedes Objekt einen (Daten)typ
 - Im Programmtext hat jeder Ausdruck einen Typ → Der Typ ist zum Zeitpunkt der Kompilierung bekannt
@@ -395,7 +396,7 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
   ![](images/staticTyping.png)
 
 
-## Datentypen in Python (Auswahl)
+### Datentypen in Python (Auswahl)
 - `str`
 - `int` (Kein Limit)
 - `float` (64Bit IEEE 754))
@@ -403,7 +404,7 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
 - `bool`
 
 
-## Dynamische Typisierung
+### Dynamische Typisierung
 
 - Zur Laufzeit hat jedes Objekt einen Typ
 - Der Typ wird zur Laufzeit geprüft
@@ -414,6 +415,18 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
     - `def greeting(name: str) -> str:`
 - dynamisch typisierte Sprachen: PHP, Python, Ruby, JavaScript
 
+
+## Finite State Machine
+![img.png](images/FSM1.png)
+![img_1.png](images/FSM2.png)
+
+## Automatentheorie
+
+![img.png](Automatentheorie.png)
+
+### Turing-Maschine
+
+![img.png](TuringMachine.png)
 
 ## Quellen
 
