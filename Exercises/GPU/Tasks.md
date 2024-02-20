@@ -62,8 +62,10 @@ Beantworte folgende Fragen:
 - Wie unterscheiden sich die KI-Beschleuniger-Instanzen von herkömmlichen CPU-Instanzen?
 - Wie sind die Preise für KI-Beschleuniger Instanzen?
 
-## Aufgaben
+### GPU Entwicklung
 
 Löse das folgende Tutorial:
 
 https://github.com/kopytjuk/cuda-tutorial/blob/master/sc11-cuda-c-basics.pdf
+
+Stelle sicher, dass du über eine [kompatible Grafikkarte](https://en.wikipedia.org/wiki/CUDA#GPUs_supported) verfügst!
