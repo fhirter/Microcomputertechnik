@@ -1,11 +1,5 @@
 package main
 
-func main() {
-	// fetch
-	// decode
-	// execute
-}
-
 type WordSize uint16
 
 type Condition_Codes struct {
@@ -14,14 +8,38 @@ type Condition_Codes struct {
 	positive bool
 }
 
-var condition_codes Condition_Codes
+var instruction_register WordSize
+var program_counter WordSize
 
 var registers = [8]WordSize{}
 
-// memory
 var memory = [2 ^ 16]WordSize{}
 
-// instructions
+var address_bus WordSize
+var data_bus WordSize
+
+func main() {
+	// fetch (IR, PC, Memory, Data Bus, Address Bus)
+	// decode (IR, Decoder, Control Lines)
+	// execute (ALU, Register, Memory)
+}
+
+func fetch() {
+	// load instruction from memory
+	instruction_register = memory[program_counter]
+	program_counter++
+}
+
+func decode() {
+
+}
+
+func execute() {
+	var alu = ALU()
+	alu.fAND()
+}
+
+// instructions (LC-3a)
 // operate
 const (
 	ADD = 0b0000
