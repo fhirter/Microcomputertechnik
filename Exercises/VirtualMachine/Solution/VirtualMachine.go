@@ -36,6 +36,7 @@ var condition_codes Condition_Codes
 var registers = [8]WordSize{}
 
 // memory
+var memory = [2 ^ 16]WordSize{}
 
 // instructions
 // operate
