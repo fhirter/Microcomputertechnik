@@ -8,23 +8,6 @@ func main() {
 
 type WordSize uint16
 
-func fNOT(srcValue WordSize) WordSize {
-	return ^srcValue
-}
-
-func fADD(srcValue1 WordSize, srcValue2 WordSize) WordSize {
-	return srcValue1 + srcValue2
-}
-
-func fAND(srcValue1 WordSize, srcValue2 WordSize) WordSize {
-	return srcValue1 & srcValue2
-}
-
-//func execute(operation)
-
-var instruction_register WordSize
-var program_counter WordSize
-
 type Condition_Codes struct {
 	zero     bool
 	negative bool
