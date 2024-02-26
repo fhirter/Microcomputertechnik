@@ -166,10 +166,8 @@ str.0:
 
 
 ## Aufbau und Funktion eines Microprozessors
-
-![w:500px](images/Microprocessor.png)
-
-https://erik-engheim.medium.com/how-does-a-microprocessor-run-a-program-11744ab47d04
+![w:500px](images/CPU.png)
+(vgl. https://erik-engheim.medium.com/how-does-a-microprocessor-run-a-program-11744ab47d04)
 
 ### AVR Architektur Blockschaltbild
 
