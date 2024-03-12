@@ -420,11 +420,11 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
 
 ## Automatentheorie
 
-![img.png](Automatentheorie.png)
+![img.png](images/Automatentheorie.png)
 
 ### Turing-Maschine
 
-![img.png](TuringMachine.png)
+![img.png](images/TuringMachine.png)
 
 ## Quellen
 
