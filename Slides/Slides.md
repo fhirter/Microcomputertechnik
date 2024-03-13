@@ -416,6 +416,9 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
 
 ## Finite State Machine
 ![img.png](images/FSM1.png)
+
+---
+
 ![img_1.png](images/FSM2.png)
 
 ## Automatentheorie
