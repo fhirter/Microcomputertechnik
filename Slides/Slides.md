@@ -405,9 +405,15 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
 ### Floating Point: Präzision
 ![img.png](images/FloatingPointPrecision.png)
 
-### Strings
-- Array von Buchstaben (Char)
-  ![w:600px img.png](images/ASCIITable.png)
+### Strings: Unicode
+Array von Buchstaben (Char)
+
+![w:600px](images/Unicode_Table.png)
+https://en.wikipedia.org/wiki/List_of_Unicode_characters
+
+---
+
+![Emoji_Unicode.png](images/Emoji_Unicode.png)
 
 ## Finite State Machine
 ![img.png](images/FSM1.png)
