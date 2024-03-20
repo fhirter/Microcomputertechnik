@@ -347,8 +347,6 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
 ![img.png](images/storage_characteristics.png)
 (Silberschatz, 2019)
 
-
-
 ## Zahlendarstellung und Datentypen
 - Binäre Zahlen: Für Maschinen einfach darstellbar (2 mögliche Zustände, idR. Spannungen)
 
@@ -393,7 +391,6 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
 - statisch typisierte Sprachen: Java, Kotlin, C#, C, Go, Rust
   ![](images/staticTyping.png)
 
-
 ### Datentypen in Python (Auswahl)
 - `str`
 - `int` (Kein Limit)
@@ -401,16 +398,15 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
 - `complex`
 - `bool`
 
-
 ### Dynamische Typisierung
 
 - Zur Laufzeit hat jedes Objekt einen Typ
 - Der Typ wird zur Laufzeit geprüft
 - Duck Typing: “When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck.”
 - Vorteile
-    - Einfachere Programmierung
+  - Einfachere Programmierung
 - Durch Typehints kann die IDE uns bei der Entwicklung dennoch unterstützen
-    - `def greeting(name: str) -> str:`
+  - `def greeting(name: str) -> str:`
 - dynamisch typisierte Sprachen: PHP, Python, Ruby, JavaScript
 
 
