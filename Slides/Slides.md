@@ -350,28 +350,7 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
 ## Zahlendarstellung und Datentypen
 - Binäre Zahlen: Für Maschinen einfach darstellbar (2 mögliche Zustände, idR. Spannungen)
 
-### Integer
-- Ganze Zahlen
-- Natürliche Zahlen (Negativ): Das MSB (most significant bit) wird für das Vorzeichen verwendet
-
-### Fliesskommazahlen
-- Normiert in IEEE 754
-- `x = s • m • b^e`
-    - Vorzeichen s
-    - Mantisse m
-    - Basis b (b=2)
-    - Exponent e
-
-![img.png](images/FloatingPoint.png)
-
-### Floating Point: Präzision
-![img.png](images/FloatingPointPrecision.png)
-
-### Strings
-- Array von Buchstaben (Char)
-  ![w:600px img.png](images/ASCIITable.png)
-
-## Datentypen in Go (Auswahl)
+### Datentypen in Go (Auswahl)
 `bool` boolean, 1-bit, true or false
 `int8`	8-bit signed integer (-128 bis 127)
 `int16`	16-bit signed integer (-32'768 bis 32'767)
@@ -409,6 +388,26 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
   - `def greeting(name: str) -> str:`
 - dynamisch typisierte Sprachen: PHP, Python, Ruby, JavaScript
 
+### Integer
+- Ganze Zahlen
+- Natürliche Zahlen (Negativ): Das MSB (most significant bit) wird für das Vorzeichen verwendet
+
+### Fliesskommazahlen
+- Normiert in IEEE 754
+- `x = s • m • b^e`
+  - Vorzeichen s
+  - Mantisse m
+  - Basis b (b=2)
+  - Exponent e
+
+![img.png](images/FloatingPoint.png)
+
+### Floating Point: Präzision
+![img.png](images/FloatingPointPrecision.png)
+
+### Strings
+- Array von Buchstaben (Char)
+  ![w:600px img.png](images/ASCIITable.png)
 
 ## Finite State Machine
 ![img.png](images/FSM1.png)
