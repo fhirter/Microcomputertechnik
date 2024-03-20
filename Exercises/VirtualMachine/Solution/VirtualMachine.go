@@ -42,8 +42,8 @@ func execute() {
 // instructions (LC-3a)
 // operate
 const (
-	ADD = 0b0000
-	AND = 0b0101
+	ADD = 0b0000 // 0x0
+	AND = 0b0101 // 0x5
 	NOT = 0b1001
 	// data movement
 	LD  = 0b0010
