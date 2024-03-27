@@ -4,8 +4,8 @@
 
 Die Studierenden
 
-- kennen die Bausteine und Funktionsweise einer CPU und können die Funktion mit einem Beispiel erklären.
-- können einfache Programme in C oder Rust schreiben.
+- kennen die Bausteine einer CPU und verstehen deren Zusammenspiel.
+- können einfache Programme in einer hardwarenahen und effizienten Sprache wie C oder Rust schreiben.
 - können ihre Programme mittels endlichen Automaten strukturieren.
 
 ## Aufgabenstellung
