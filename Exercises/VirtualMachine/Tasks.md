@@ -16,8 +16,8 @@ oder
 [3b](https://users.ece.utexas.edu/~patt/21s.460n/handouts/appA.pdf)
 Instruction Set.
 
-Um ein korrektes Funktionieren sicherzustellen, sollen Unit-Tests geschrieben werden.
-Ein Vorgehen nach [TDD](https://de.wikipedia.org/wiki/Testgetriebene_Entwicklung) wird empfohlen.
+Um ein korrektes Funktionieren sicherzustellen, sollen Unit-Tests geschrieben werden. Ein Vorgehen
+nach [TDD](https://de.wikipedia.org/wiki/Testgetriebene_Entwicklung) wird empfohlen.
 
 Wichtig ist eine detaillierte inhaltliche Auseinandersetzung mit der Thematik.
 
@@ -27,12 +27,11 @@ Die vollständige Implementierung der virtuellen Maschine ist zweitrangig.
 
 ### Programmiersprache
 
-Die Wahl der Programmiersprache ist den Studierenden überlassen.
-Andere virtuelle Maschinen oder Interpreter wie
+Die Wahl der Programmiersprache ist den Studierenden überlassen. Andere virtuelle Maschinen oder Interpreter wie
 etwa [JVM](https://de.wikipedia.org/wiki/Java_Virtual_Machine), [CPython](https://en.wikipedia.org/wiki/CPython)
 oder [Deno](https://en.wikipedia.org/wiki/Deno_(software)) sind aus Performancegründen meist in C, C++ oder Rust
-geschrieben, weshalb die Wahl einer dieser Sprachen nahe liegt.
-Mögliche Alternativen sind andere kompilierte Sprachen wie Go, C#, Java.
+geschrieben, weshalb die Wahl einer dieser Sprachen nahe liegt. Mögliche Alternativen sind andere kompilierte Sprachen
+wie Go, C#, Java.
 
 ## Bericht
 
