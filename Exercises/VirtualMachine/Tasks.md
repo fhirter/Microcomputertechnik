@@ -23,7 +23,7 @@ etwa [JVM](https://de.wikipedia.org/wiki/Java_Virtual_Machine), [CPython](https:
 oder [Node](https://de.wikipedia.org/wiki/Node.js) sind aus Performancegründen meist in C oder C++ geschrieben, bei
 neueren Projekten werden etwa Rust ([Deno](https://deno.com/)) oder Zig ([Bun](https://bun.sh/)) verwendet.
 
-Diese Sprachen sind optimiert für Performance-Kritische Anwendungen. Mögliche Alternativen sind andere
+Diese Sprachen sind optimiert für performance-kritische Anwendungen. Mögliche Alternativen sind andere
 kompilierte Sprachen wie Go, C# oder Java.
 
 ### Implementierung
