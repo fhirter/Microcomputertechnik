@@ -37,7 +37,7 @@ Implementiere folgende Bauteile einer CPU nach der Theorie:
 Schreibe für die einzelnen Bauteile _vor_ der Implementierung einen Unit-Test.
 
 Beschränke dich bei der Implementierung auf die folgenden Instruktionen aus dem RV32I (Base integer instruction set,
--bit) Befehlssatz:
+32bit) Befehlssatz:
 
 | Name          | MNEMONIC | Format            |
 |---------------|----------|-------------------|
