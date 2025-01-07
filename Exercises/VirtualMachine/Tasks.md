@@ -28,6 +28,8 @@ kompilierte Sprachen wie Go, C# oder Java.
 
 ### Implementierung
 
+Implementiere folgende Bauteile einer CPU nach der Theorie:
+
 - Speicher: Program Counter, Register und RAM
 - Decoder
 - ALU
