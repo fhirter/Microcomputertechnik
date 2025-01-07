@@ -16,8 +16,8 @@ Instruction Set.
 Um ein korrektes Funktionieren sicherzustellen, sollen Unit-Tests geschrieben werden. Ein Vorgehen
 nach [TDD](https://de.wikipedia.org/wiki/Testgetriebene_Entwicklung) wird empfohlen.
 
-Wichtig ist eine inhaltliche Auseinandersetzung mit der Thematik, die vollständige Implementierung der
-virtuellen Maschine ist zweitrangig.
+Wichtig ist eine inhaltliche Auseinandersetzung mit der Thematik, die vollständige Implementierung der virtuellen
+Maschine ist zweitrangig.
 
 ### Programmiersprache
 
@@ -33,7 +33,7 @@ oder Java.
 - Decoder
 - ALU
 
-Beschränke dich bei der Implementierung auf die folgenden Instruktionen aus dem RV32I (Base integer instruction set, 
+Beschränke dich bei der Implementierung auf die folgenden Instruktionen aus dem RV32I (Base integer instruction set,
 -bit) Befehlssatz:
 
 | Name          | MNEMONIC | Format            |
