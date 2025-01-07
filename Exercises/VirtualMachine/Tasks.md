@@ -10,7 +10,7 @@ Die Studierenden
 
 ## Aufgabenstellung
 
-Entwickle eine virtuelle Maschine für das "[RISC-V](https://en.wikipedia.org/wiki/RISC-V)"
+Entwickle eine virtuelle Maschine für ein Subset des [RISC-V](https://en.wikipedia.org/wiki/RISC-V)
 Instruction Set.
 
 Um ein korrektes Funktionieren sicherzustellen, sollen Unit-Tests geschrieben werden. Ein Vorgehen
