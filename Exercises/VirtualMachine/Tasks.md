@@ -23,9 +23,11 @@ Maschine ist zweitrangig.
 
 Die Wahl der Programmiersprache ist den Studierenden überlassen. Andere virtuelle Maschinen oder Interpreter wie
 etwa [JVM](https://de.wikipedia.org/wiki/Java_Virtual_Machine), [CPython](https://en.wikipedia.org/wiki/CPython)
-oder [Node](https://de.wikipedia.org/wiki/Node.js) sind aus Performancegründen meist in C, C++ oder Rust geschrieben,
-weshalb die Wahl einer dieser Sprachen nahe liegt. Mögliche Alternativen sind andere kompilierte Sprachen wie Go, C#
-oder Java.
+oder [Node](https://de.wikipedia.org/wiki/Node.js) sind aus Performancegründen meist in C oder C++ geschrieben, bei
+neueren Projekten werden etwa Rust ([Deno](https://deno.com/)) oder Zig ([Bun](https://bun.sh/)) verwendet.
+
+Diese Sprachen sind optimiert für Performance-Kritische Anwendungen. Mögliche Alternativen sind andere
+kompilierte Sprachen wie Go, C# oder Java.
 
 ### Implementierung
 
