@@ -13,9 +13,6 @@ Die Studierenden
 Entwickle eine virtuelle Maschine für ein Subset des [RISC-V](https://en.wikipedia.org/wiki/RISC-V)
 Instruction Set.
 
-Um ein korrektes Funktionieren sicherzustellen, sollen Unit-Tests geschrieben werden. Ein Vorgehen
-nach [TDD](https://de.wikipedia.org/wiki/Testgetriebene_Entwicklung) wird empfohlen.
-
 Wichtig ist eine inhaltliche Auseinandersetzung mit der Thematik, die vollständige Implementierung der virtuellen
 Maschine ist zweitrangig.
 
@@ -34,6 +31,8 @@ kompilierte Sprachen wie Go, C# oder Java.
 - Speicher: Program Counter, Register und RAM
 - Decoder
 - ALU
+
+Schreibe für die einzelnen Bauteile _vor_ der Implementierung einen Unit-Test.
 
 Beschränke dich bei der Implementierung auf die folgenden Instruktionen aus dem RV32I (Base integer instruction set,
 -bit) Befehlssatz:
