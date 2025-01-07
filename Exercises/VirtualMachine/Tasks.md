@@ -54,8 +54,6 @@ Beschränke dich bei der Implementierung auf die folgenden Instruktionen aus dem
 Der Bericht sollten folgende Teile enthalten:
 
 - Einleitung
-    - Ausgangslage und Problemstellung
-    - Zielsetzung
 - Hauptteil
 - Diskussion
 - Empfehlungen und Ausblick
