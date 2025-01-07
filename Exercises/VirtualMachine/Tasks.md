@@ -63,6 +63,8 @@ Dokument "[Anleitung technischer Bericht](AnleitungTechnischerBericht.pdf)".
 
 Sämtliche Aussagen müssen mit belastbaren Quellen belegt werden.
 
+Bericht und Code sollen zusammen in einem Github Repository verwaltet werden.
+
 Umfang: ca 1000 Wörter / 4 Normseiten
 
 ## Bewertung
