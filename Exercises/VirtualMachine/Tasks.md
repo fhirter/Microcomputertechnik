@@ -57,10 +57,11 @@ Der Bericht sollten folgende Teile enthalten:
 - Hauptteil
 - Diskussion
 - Empfehlungen und Ausblick
-- Quellen
 
 Die Erläuterungen der Kapitel befinden sich im
 Dokument "[Anleitung technischer Bericht](AnleitungTechnischerBericht.pdf)".
+
+Sämtliche Aussagen müssen mit belastbaren Quellen belegt werden.
 
 Umfang: ca 1000 Wörter / 4 Normseiten
 
