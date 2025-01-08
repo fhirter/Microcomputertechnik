@@ -12,6 +12,30 @@ img {
 
 ![img.png](images/ueberblick.png)
 
+## Computer Timescale vs Human Timescale
+
+| Task                   | Computer | Human     |
+|------------------------|----------|-----------|
+| Add two Numbers        | 0.5ns    | 5s        |
+| Multiplication         | 2ns      | 20s       |
+| Division (32bit)       | 15ns     | 150s      |
+| Add (float)            | 2ns      | 20s       |
+| Multiply (float)       | 2ns      | 20s       |
+| Access L1 Cache        | 2ns      | 20s       |
+| Access L2 Cache        | 6ns      | 60s       |
+| Access L4 Cache        | 20ns     | 3min      |
+| Access RAM             | 100ns    | 15min     |
+| Read SSD               | 20us     | 2 days    |
+| Read HDD               | 10ms     | 3.1 years |
+| Time (1 frame @ 60fps) | 16ms     | 5.1 years |
+| Local LAN Ping         | 400us    | 6 weeks   |
+| Next Google DNS        | 10ms     | 3.1 years |
+| Next Google DNS        | 100ms    | 31 years  |
+
+$ T_H = T_H*10^9 $
+
+Quelle: https://www.youtube.com/watch?v=PpaQrzoDW2I
+
 ## Alan Touring
 - *1912 - †1954
 - Begründer der «Computer Science»
