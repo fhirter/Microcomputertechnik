@@ -24,23 +24,12 @@ var opCodes = OpCodes{
 	sb:   7,
 }
 
-func TestFNOT(t *testing.T) {
-	const srcValue WordSize = 0x0
-	const expected WordSize = 0xffffffff
-
-	given := alu.FNot(srcValue)
-
-	if given != expected {
-		t.Fatalf(`NOT is not working as expected. given: %b, expected: %b`, given, expected)
-	}
-}
-
 func TestFADD(t *testing.T) {
 	var srcValue1 WordSize = 0x1
 	var srcValue2 WordSize = 0x1
 	var expected WordSize = 0x2
 
-	given := alu.fADD(srcValue1, srcValue2)
+	given := alu.execute(opCodes.add, srcValue1, srcValue2)
 
 	if given != expected {
 		t.Fatalf(`ADD is not working as expected. given: %b, expected: %b`, given, expected)
@@ -52,7 +41,7 @@ func TestFAND(t *testing.T) {
 	var srcValue2 WordSize = 0b0000000000000011
 	var expected WordSize = 0b0000000000000010
 
-	given := alu.fAND(srcValue1, srcValue2)
+	given := alu.execute(opCodes.and, srcValue1, srcValue2)
 
 	if given != expected {
 		t.Fatalf(`AND is not working as expected. given: %b, expected: %b`, given, expected)

@@ -2,6 +2,18 @@ package main
 
 type ALU struct{}
 
+func (a ALU) execute(opCode int8, value1 WordSize, value2 WordSize) WordSize {
+
+	switch opCode {
+	case 1:
+		return a.fADD(value1, value2)
+
+	case 4:
+		return a.fAND(value1, value2)
+	}
+	return 0
+}
+
 func (a ALU) FNot(srcValue WordSize) WordSize {
 	return ^srcValue
 }
