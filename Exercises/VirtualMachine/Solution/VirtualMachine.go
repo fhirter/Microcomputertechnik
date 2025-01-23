@@ -2,14 +2,14 @@ package main
 
 type WordSize uint16
 
-type Condition_Codes struct {
+type ConditionCodes struct {
 	zero     bool
 	negative bool
 	positive bool
 }
 
 var instruction_register WordSize
-var program_counter WordSize
+var programCounter WordSize
 
 var registers = [8]WordSize{}
 
@@ -26,8 +26,8 @@ func main() {
 
 func fetch() {
 	// load instruction from memory
-	instruction_register = memory[program_counter]
-	program_counter++
+	instruction_register = memory[programCounter]
+	programCounter++
 }
 
 func decode() {

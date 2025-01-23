@@ -1,7 +1,7 @@
 package main
 
 type ALU struct {
-	conditionCodes Condition_Codes
+	conditionCodes ConditionCodes
 }
 
 func (a ALU) fNOT(srcValue WordSize) WordSize {
