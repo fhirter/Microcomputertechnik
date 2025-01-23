@@ -1,6 +1,7 @@
 package main
 
-type WordSize uint16
+type WordSize uint32
+type InstructionSize uint64
 
 type ConditionCodes struct {
 	zero     bool
@@ -35,8 +36,6 @@ func decode() {
 }
 
 func execute() {
-	var alu = ALU()
-	alu.fAND()
 }
 
 // instructions (LC-3a)

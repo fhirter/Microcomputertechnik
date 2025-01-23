@@ -1,5 +1,5 @@
 package main
 
-// ALU
+func decodeInstruction(instruction InstructionSize) {
 
-//
+}

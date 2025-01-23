@@ -1,10 +1,8 @@
 package main
 
-type ALU struct {
-	conditionCodes ConditionCodes
-}
+type ALU struct{}
 
-func (a ALU) fNOT(srcValue WordSize) WordSize {
+func (a ALU) FNot(srcValue WordSize) WordSize {
 	return ^srcValue
 }
 
