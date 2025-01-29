@@ -8,6 +8,10 @@ img {
 
 # Microcomputertechnik
 
+> "You don't have to be an engineer to be be a racing driver, but you do have to have Mechanical Sympathy." 
+
+-- vermutlich: Jackie Stewart, Rennfahrer
+
 ## Überblick
 
 ![img.png](images/ueberblick.png)
