@@ -49,8 +49,8 @@ Beschränke dich bei der Implementierung auf die folgenden Instruktionen aus dem
 | Load Byte     | `lb`     | Immediate         |
 | Store Byte    | `sb`     | Immediate         |
 
-Verarbeite die Instruktionen im binären Format. Konsultiere dazu die [offizielle Spezifikation](unpriv-isa-asciidoc.
-pdf) und [diese Übersichtsseite](https://msyksphinz-self.github.io/riscv-isadoc/html/index.html).
+Verarbeite die Instruktionen im binären Format. Konsultiere dazu die 
+[offizielle Spezifikation](unpriv-isa-asciidoc.pdf) und [diese Übersichtsseite](https://msyksphinz-self.github.io/riscv-isadoc/html/index.html).
 
 ## Bericht
 

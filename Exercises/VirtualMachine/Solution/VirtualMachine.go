@@ -1,15 +1,16 @@
 package main
 
-type WordSize uint16
+type WordSize uint32
+type InstructionSize uint64
 
-type Condition_Codes struct {
+type ConditionCodes struct {
 	zero     bool
 	negative bool
 	positive bool
 }
 
 var instruction_register WordSize
-var program_counter WordSize
+var programCounter WordSize
 
 var registers = [8]WordSize{}
 
@@ -26,8 +27,8 @@ func main() {
 
 func fetch() {
 	// load instruction from memory
-	instruction_register = memory[program_counter]
-	program_counter++
+	instruction_register = memory[programCounter]
+	programCounter++
 }
 
 func decode() {
@@ -35,8 +36,6 @@ func decode() {
 }
 
 func execute() {
-	var alu = ALU()
-	alu.fAND()
 }
 
 // instructions (LC-3a)

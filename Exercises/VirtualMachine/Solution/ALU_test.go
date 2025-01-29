@@ -2,23 +2,34 @@ package main
 
 import "testing"
 
-func TestFNOT(t *testing.T) {
-	var srcValue WordSize = 0b0101010101010101
-	var expected WordSize = 0b1010101010101010
+var alu = ALU{}
 
-	given := fNOT(srcValue)
+type OpCodes struct {
+	add  int8
+	addi int8
+	xori int8
+	and  int8
+	beq  int8
+	lb   int8
+	sb   int8
+}
 
-	if given != expected {
-		t.Fatalf(`NOT is not working as expected. given: %b, expected: %b`, given, expected)
-	}
+var opCodes = OpCodes{
+	add:  1,
+	addi: 2,
+	xori: 3,
+	and:  4,
+	beq:  5,
+	lb:   6,
+	sb:   7,
 }
 
 func TestFADD(t *testing.T) {
-	var srcValue1 WordSize = 0b0000000000000001
-	var srcValue2 WordSize = 0b0000000000000001
-	var expected WordSize = 0b0000000000000010
+	var srcValue1 WordSize = 0x1
+	var srcValue2 WordSize = 0x1
+	var expected WordSize = 0x2
 
-	given := fADD(srcValue1, srcValue2)
+	given := alu.execute(opCodes.add, srcValue1, srcValue2)
 
 	if given != expected {
 		t.Fatalf(`ADD is not working as expected. given: %b, expected: %b`, given, expected)
@@ -30,7 +41,7 @@ func TestFAND(t *testing.T) {
 	var srcValue2 WordSize = 0b0000000000000011
 	var expected WordSize = 0b0000000000000010
 
-	given := fAND(srcValue1, srcValue2)
+	given := alu.execute(opCodes.and, srcValue1, srcValue2)
 
 	if given != expected {
 		t.Fatalf(`AND is not working as expected. given: %b, expected: %b`, given, expected)
@@ -38,9 +49,7 @@ func TestFAND(t *testing.T) {
 }
 
 func TestFLD(t *testing.T) {
-
 }
-
 func TestFLDI(t *testing.T) {
 
 }
