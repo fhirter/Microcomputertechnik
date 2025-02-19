@@ -299,7 +299,6 @@ http://lyons42.com/AVR/Opcodes/AVRAllOpcodes.html
 - Grundsätzlich: Einfachere Architektur, einfacher für Compiler
 - Alles andere: **CISC**
 
----
 
 ### Reduced Instruction Set Computer (RISC)
 
