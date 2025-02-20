@@ -2,7 +2,7 @@ package main
 
 type ALU struct{}
 
-func (a ALU) execute(opCode int8, value1 WordSize, value2 WordSize) WordSize {
+func (a ALU) execute(opCode opCode, value1 WordSize, value2 WordSize) WordSize {
 
 	switch opCode {
 	case 1:

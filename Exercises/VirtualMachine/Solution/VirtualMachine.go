@@ -9,6 +9,28 @@ type ConditionCodes struct {
 	positive bool
 }
 
+type opCode int8
+
+type OpCodes struct {
+	add  opCode
+	addi opCode
+	xori opCode
+	and  opCode
+	beq  opCode
+	lb   opCode
+	sb   opCode
+}
+
+var OpCodeValues = OpCodes{
+	add:  1,
+	addi: 2,
+	xori: 3,
+	and:  4,
+	beq:  5,
+	lb:   6,
+	sb:   7,
+}
+
 var instruction_register WordSize
 var programCounter WordSize
 
