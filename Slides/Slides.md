@@ -372,6 +372,27 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
 
 ![img_1.png](images/Pipelining.png)
 
+## Co-Processors
+
+### Digital Signal Processors
+
+- FIR: $y[n] = \sum_{i=1}^{N} b_i \cdot x[n-i]$
+- FFT: $â = W \cdot a$, $a=(a_0, ..., a_{N-1})$, $W[k,j]=e^{-w\pi i \frac{jk}{N}}$ (Matrix-Vektor Multiplikation)
+
+![ADI SHARC](images/ADI_SHARC.png)
+
+### Tensor Cores
+
+- Matrixprozessoren
+
+NVIDIA V100 Tensor Cores are programmable matrix-multiply-and-accumulate units
+
+![Matrix Multiply and Accumulate](images/MAC.png)
+
+---
+
+![Volta GV100 Tensor Core](Volta_GV100_Tensor_Core.png)
+
 ## Speicher
 
 ### Cache
