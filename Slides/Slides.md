@@ -8,7 +8,7 @@ img {
 
 # Microcomputertechnik
 
-> "You don't have to be an engineer to be be a racing driver, but you do have to have Mechanical Sympathy." 
+> "You don't have to be an engineer to be be a racing driver, but you do have to have Mechanical Sympathy."
 
 -- vermutlich: Jackie Stewart, Rennfahrer
 
@@ -299,7 +299,6 @@ http://lyons42.com/AVR/Opcodes/AVRAllOpcodes.html
 - Grundsätzlich: Einfachere Architektur, einfacher für Compiler
 - Alles andere: **CISC**
 
-
 ### Reduced Instruction Set Computer (RISC)
 
 - Besser geeignet für "moderne" Compiler
@@ -374,24 +373,87 @@ https://www.zdnet.com/article/ai-is-changing-the-entire-nature-of-compute/
 
 ## Co-Processors
 
-### Digital Signal Processors
+### Vektoren
+
+$a \cdot \begin{pmatrix} b_1 \\ b_2 \\ b_3 \end{pmatrix} =ab_1+ab_2+ab_3$
+
+$\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix} \cdot \begin{pmatrix} b_1 \\ b_2 \\ b_3 \end{pmatrix} =a_1b_1+a_2b_2+a_3b_3$
+
+### Matrizen
+
+$C=A\cdot B$, $c_{ik}=\sum_{j=1}^{n} a_{ij} \cdot b_{jk}$
+
+![Matrix Multiplication](images/matrix_multiplication.png)
+
+### MAC
+
+$a = a+ (b\cdot c)$
+
+### Digital Signal Processors: Vektorprozessoren
 
 - FIR: $y[n] = \sum_{i=1}^{N} b_i \cdot x[n-i]$
 - FFT: $â = W \cdot a$, $a=(a_0, ..., a_{N-1})$, $W[k,j]=e^{-w\pi i \frac{jk}{N}}$ (Matrix-Vektor Multiplikation)
 
-![ADI SHARC](images/ADI_SHARC.png)
+![w:600px ADI SHARC](images/ADI_SHARC.png)
 
-### Tensor Cores
-
-- Matrixprozessoren
+### Tensor Cores: Matrixprozessoren
 
 NVIDIA V100 Tensor Cores are programmable matrix-multiply-and-accumulate units
 
 ![Matrix Multiply and Accumulate](images/MAC.png)
 
+https://developer.nvidia.com/blog/programming-tensor-cores-cuda-9/
+
 ---
 
-![Volta GV100 Tensor Core](Volta_GV100_Tensor_Core.png)
+![Volta GV100 Tensor Core operation](images/Volta%20GV100%20Tensor%20Core%20operation.png)
+
+https://developer.nvidia.com/blog/programming-tensor-cores-cuda-9/
+
+### GH100 Streaming Multiprocessor (SM)
+
+![w:400px GH100 streaming multiprocessor](images/GH100_streaming_multiprocessor.png)
+
+https://developer.nvidia.com/blog/nvidia-hopper-architecture-in-depth/
+
+---
+
+- INT32: cores for integer math (32-Bit)
+- 128 FP32 Cores per SM (32-Bit Floating Point)
+- 64 FP64 Cores per SM (64-Bit Floating Point)
+- 64 INT32 Cores per SM (32-Bit Integer)
+- 4 Tensor Cores per SM
+
+https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#architecture-8-x
+
+---
+
+![GH100 Full GPU with 144 SMs](images/GH100_Full_GPU.png)
+
+---
+
+The full implementation of the GH100 GPU includes the following units:
+
+- 8 GPCs, 72 TPCs (9 TPCs/GPC), 2 SMs/TPC, 144 SMs per full GPU
+- 18432 FP32 CUDA Cores per full GPU
+- 576 Tensor Cores per full GPU
+- 6 HBM3 or HBM2e stacks, 12 512-bit memory controllers
+- 60 MB L2 cache
+- Fourth-generation NVLink and PCIe Gen 5
+
+https://developer.nvidia.com/blog/nvidia-hopper-architecture-in-depth/
+
+
+
+### Durchsatz
+
+Number of Results per Clock Cycle per Multiprocessor
+
+32-bit floating-point add, multiply, multiply-add: 128
+
+D.h. 18'432 FP32 Operation pro Takt.
+
+https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#arithmetic-instructions
 
 ## Speicher
 
