@@ -30,13 +30,8 @@ Es werden folgende formellen Anforderungen gestellt:
 
 ### Machine Learning und GPU
 
-[Deep Learning](https://www.youtube.com/watch?v=l42lr8AlrHk)
-
 - Welche grundlegenden Rechenoperationen sind für ML Anwendungen wichtig?
 - Wieso können ML Anwendungen so stark parallelisiert werden?
-
-[How GPU Computing Works | GTC 2021](https://www.youtube.com/watch?v=3l10o0DYJXg)
-
 - Wie Unterscheiden sich GPUs von CPUs?
 - Wie ermöglichen GPUs die hohe parallele Ausführung von Berechnungen?
 
@@ -45,7 +40,7 @@ Es werden folgende formellen Anforderungen gestellt:
 [NVIDIA Made a CPU.. I’m Holding It. - Grace CPU/Hopper SuperChip @ Computex 2023](https://www.youtube.com/watch?v=It9D08W8Z7o)
 
 - Welche CPU Architektur nutzen die Nvidia Grace CPUs?
-- Wiese sind die Grace-Hopper "Superchips" schneller als herkömmliche CPU/GPU Kombinationen?
+- Wieso sind die Grace-Hopper "Superchips" schneller als herkömmliche CPU/GPU Kombinationen?
 - Skizziere die Grace-Hopper Systemarchitektur!
 
 ### Cloud Computing
