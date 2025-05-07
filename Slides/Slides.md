@@ -27,7 +27,12 @@ img {
 | Multiply (float)       | 2ns      | 20s       |
 | Access L1 Cache        | 2ns      | 20s       |
 | Access L2 Cache        | 6ns      | 60s       |
-| Access L4 Cache        | 20ns     | 3min      |
+| Access L3 Cache        | 20ns     | 3min      |
+
+---
+
+| Task                   | Computer | Human     |
+|------------------------|----------|-----------|
 | Access RAM             | 100ns    | 15min     |
 | Read SSD               | 20us     | 2 days    |
 | Read HDD               | 10ms     | 3.1 years |
@@ -36,7 +41,7 @@ img {
 | Next Google DNS        | 10ms     | 3.1 years |
 | Next Google DNS        | 100ms    | 31 years  |
 
-$ T_H = T_H*10^9 $
+$ T_H = T_C*10^9 $
 
 Quelle: https://www.youtube.com/watch?v=PpaQrzoDW2I
 
